@@ -4,7 +4,7 @@ const apiRoute = require("./routes/api");
 const dotenv = require("dotenv").config();
 const port = 3001;
 const connection = require("./database");
-// const cors = require('./middleware/cors')
+const cors = require('./middleware/cors')
 
 
 app.use(express.json());
