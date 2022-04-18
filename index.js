@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const apiRoute = require("./routes/api");
 const dotenv = require("dotenv").config();
-const port = 3001;
+const port = 3006;
 const connection = require("./database");
 // const cors = require('./middleware/cors')
 
